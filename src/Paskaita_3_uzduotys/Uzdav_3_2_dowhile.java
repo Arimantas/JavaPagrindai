@@ -17,7 +17,6 @@ public class Uzdav_3_2_dowhile {
             zodis = sc.nextLine();
             System.out.println("Ivestas zodis: " + zodis);
         } while (!zodis.equals("pabaiga"));
-
     }
 
 }
