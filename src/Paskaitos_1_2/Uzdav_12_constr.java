@@ -4,7 +4,7 @@ package Paskaitos_1_2;
  * Created by Arimantas on 2017.04.06.
  */
 public class Uzdav_12_constr {
-
+/*
     private float ugis;         // neaisku
     private float svoris;       // neaisku
 
@@ -13,7 +13,9 @@ public class Uzdav_12_constr {
         this.svoris = svoris;
     }
 
-    public float Uzdav_12_constr(){       // neaisku
+    public float Uzdav_12_constr(svoris, ugis){       // neaisku
         return svoris / (ugis * ugis);
     }
+
+*/
 }
