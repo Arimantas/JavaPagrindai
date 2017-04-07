@@ -27,7 +27,7 @@ public class Uzdav_3_3ir4 {
             try {
                 i = sc.nextInt();
                 suma = suma + i;
-            } catch (InputMismatchException e) {
+            } catch (InputMismatchException e) {        // kodel e?
                 System.out.println("Raidziu as neskaiciuoju, ivesk skaiciu!");
                 sc.nextLine();
             }
