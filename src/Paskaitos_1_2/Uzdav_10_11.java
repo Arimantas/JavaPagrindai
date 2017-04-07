@@ -14,42 +14,20 @@ public class Uzdav_10_11 {
         float firstNm = sc.nextFloat();
         System.out.println("Iveskite antra skaiciu: ");
         float secontNm = sc.nextFloat();
-        //System.out.println("Iveskite norima atlikti veiksma +, - arba *");    //    su String kazko neveikia
-        //String veiksmas = sc.next();
-        System.out.println("Iveskite norimo atlikti veiksmo numeri. Suma: 1, Skirtumas: 2, Sandauga: 3");
-        int veiksmas = sc.nextInt();
+        System.out.println("Iveskite norima atlikti veiksma +, - arba *");
+        char veiksmas = sc.next().charAt(0);
 
-/*
-        //  Kodel neveikia su string?
-        if (veiksmas == "+") {
+
+        if (veiksmas == '+') {
             System.out.println(firstNm + " + " + secontNm + " = " + skaic.suma(firstNm, secontNm));
-        }
-        else if (veiksmas == "-") {
+        } else if (veiksmas == '-') {
             float skirtumas = skaic.skirt(firstNm, secontNm);                        // del ivairoves
             System.out.println(firstNm + " - " + secontNm + " = " + skirtumas);
-        }
-        else if (veiksmas == "*") {
+        } else if (veiksmas == '*') {
             System.out.println(firstNm + " x " + secontNm + " = " + skaic.sand(firstNm, secontNm));
-        }
-        else {
-            System.out.println("Negalimas veiksmas.");
-        }
-*/
-
-        if (veiksmas == 1) {
-            System.out.println(firstNm + " + " + secontNm + " = " + skaic.suma(firstNm, secontNm));
-
-        } else if (veiksmas == 2) {
-            float skirtumas = skaic.skirt(firstNm, secontNm);                        // del ivairoves
-            System.out.println(firstNm + " - " + secontNm + " = " + skirtumas);
-
-        } else if (veiksmas == 3) {
-            System.out.println(firstNm + " x " + secontNm + " = " + skaic.sand(firstNm, secontNm));
-
         } else {
             System.out.println("Negalimas veiksmas.");
         }
-
     }
 }
 
