@@ -7,7 +7,10 @@ import java.util.Scanner;
  */
 public class Uzdav_3_12_13 {
 
-    public static void main(String[] args) {
+    // 12.  Parašyti metodą kurio parametras būtų sveikų skaičių masyvas. Metodas turi grąžinti didžiausią masyvo skaičių.
+    // 13.  Parašyti metodą kurio parametras būtų sveikų skaičių masyvas. Metodas turi grąžinti mažiausią masyvo skaičių.
+
+   /* public static void main(String[] args) {
 
         Scanner sc = new Scanner(System.in);
 
@@ -54,5 +57,5 @@ public class Uzdav_3_12_13 {
             }
         }
         return minMas;
-    }
+    }*/
 }

@@ -7,6 +7,10 @@ import java.util.Scanner;
  */
 public class Uzdav_3_11 {
 
+    // 11.  Parašyti programą kuri paprašo vartotojo įvesti skaičių n, tuomet leidžia pasirinkti ką suskaičiuoti,
+    // skaičių nuo 1 iki n sumą arba sandaugą (1 - suma, 2 - sandauga).
+    // Jeigu įvestas skaičius mažesnis nei vienas, programa turi informuoti apie blogą įvestį.
+
     public static void main(String[] args) {
 
         Scanner sc = new Scanner(System.in);

@@ -7,6 +7,9 @@ import java.util.Scanner;
  */
 public class Uzdav_3_10 {
 
+    // 10.  Parašyti programą kuri paprašo vartotojo įvesti skaičių n ir suskaičiuoja sumą visų skaičių nuo vieno iki n.
+    // Jeigu įvestas skaičius mažesnis nei vienas, programa turi informuoti apie blogą įvestį.
+
     public static void main(String[] args) {
 
         Scanner sc = new Scanner(System.in);
