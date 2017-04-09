@@ -6,7 +6,7 @@ import java.util.Scanner;
 /**
  * Created by Arimantas on 2017.04.07.
  */
-public class Uzdav_3_3ir4 {
+public class Uzdav_3_3_4 {
 
     public static void main(String[] args) {
 
